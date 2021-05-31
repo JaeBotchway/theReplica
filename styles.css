@@ -6,6 +6,7 @@
 body, html {
     height: 100%;
     width: 100%;
+    padding-top:20px;
 }
 
 
@@ -13,8 +14,9 @@ body, html {
     width: 100%;
     height: 40px;
     background: rgba(0,0,0,0.8);
-    padding-top: 5px;
+    padding-top: 10px;
     position:fixed;
+    top: 0;
 }
 
 
@@ -30,9 +32,8 @@ center a {
 
 .toptext {
     height:20px;
-    text-align:center;
-    width: 80%;
-    padding: 45px;
+    text-align: center;
+    padding: 20px;
     position:initial;
     font-size: 20px;
 }
